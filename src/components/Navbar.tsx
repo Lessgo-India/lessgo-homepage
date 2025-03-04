@@ -48,9 +48,6 @@ const Navbar = () => {
             <a href="#features" className="text-sm font-medium text-gray-700 hover:text-lessgo-600 transition-colors dark:text-gray-300 dark:hover:text-lessgo-400">
               Features
             </a>
-            <a href="#pricing" className="text-sm font-medium text-gray-700 hover:text-lessgo-600 transition-colors dark:text-gray-300 dark:hover:text-lessgo-400">
-              Pricing
-            </a>
             <a href="#faq" className="text-sm font-medium text-gray-700 hover:text-lessgo-600 transition-colors dark:text-gray-300 dark:hover:text-lessgo-400">
               FAQ
             </a>
@@ -96,13 +93,6 @@ const Navbar = () => {
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Features
-          </a>
-          <a 
-            href="#pricing" 
-            className="block py-2 text-base font-medium text-gray-700 hover:text-lessgo-600 dark:text-gray-300 dark:hover:text-lessgo-400"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Pricing
           </a>
           <a 
             href="#faq" 

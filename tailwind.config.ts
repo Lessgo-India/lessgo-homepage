@@ -117,8 +117,8 @@ export default {
 				'scale-up': 'scale-up 0.4s ease-out forwards',
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				display: ['SF Pro Display', 'Inter', 'sans-serif']
+				sans: ['Poppins', 'sans-serif'],
+				display: ['Poppins', 'sans-serif']
 			},
 		}
 	},

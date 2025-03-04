@@ -1,11 +1,11 @@
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import FeaturesSection from "@/components/FeaturesSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import CtaSection from "@/components/CtaSection";
 import Footer from "@/components/Footer";
+import { useTheme } from "@/components/ThemeProvider";
 
 const Index = () => {
   useEffect(() => {
@@ -36,7 +36,6 @@ const Index = () => {
       <main>
         <HeroSection />
         <FeaturesSection />
-        <TestimonialsSection />
         <CtaSection />
       </main>
       <Footer />

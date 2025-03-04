@@ -117,8 +117,8 @@ export default {
 				'scale-up': 'scale-up 0.4s ease-out forwards',
 			},
 			fontFamily: {
-				sans: ['Poppins', 'sans-serif'],
-				display: ['Poppins', 'sans-serif']
+				sans: ['Open Sans', 'sans-serif'],
+				display: ['Open Sans', 'sans-serif']
 			},
 		}
 	},
